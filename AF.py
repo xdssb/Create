@@ -3,6 +3,6 @@ import os, platform
 os.system('git pull')
 bit = platform.architecture()[0]
 if bit == '64bit':
-    import ACF3
+    import ACF5
 elif bit == '32bit':
     import Dump32
